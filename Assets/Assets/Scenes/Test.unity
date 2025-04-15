@@ -281,6 +281,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1331418449732320441, guid: 6186c5bae291f084b8f0a5a8d1739407, type: 3}
       insertIndex: -1
       addedObject: {fileID: 136719439}
+    - targetCorrespondingSourceObject: {fileID: 1331418449732320441, guid: 6186c5bae291f084b8f0a5a8d1739407, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 136719440}
   m_SourcePrefab: {fileID: 100100000, guid: 6186c5bae291f084b8f0a5a8d1739407, type: 3}
 --- !u!4 &136719437 stripped
 Transform:
@@ -313,6 +316,33 @@ MonoBehaviour:
   rotateSpeed: 25
   cam: {fileID: 0}
   checkPoint: {x: 0, y: 0, z: 0}
+--- !u!114 &136719440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136719438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c1e1cc38320334790d4a732ec2e243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equippedTool: Dirt_Shovel
+  toolMultiplier: 1
+  backpackCapacity: 25
+  sandCount: 0
+  money: 0
+  digZone: {fileID: 1040743968}
+  digHoldTime: 1
+  currentDigTime: 0
+  hotbarText: {fileID: 0}
+  sandText: {fileID: 0}
+  moneyText: {fileID: 0}
+  timerText: {fileID: 0}
+  warningText: {fileID: 0}
+  digKey: 101
+  jumpKey: 32
 --- !u!1 &161444691
 GameObject:
   m_ObjectHideFlags: 0
